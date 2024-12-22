@@ -21,7 +21,7 @@ taxonomies = [
 highlight_code = true
 
 # TODO: Add ABAP, fbthrift and capnproto sublime syntaxes.
-extra_syntaxes_and_themes = ["syntaxes"]
+# extra_syntaxes_and_themes = ["syntaxes"]
 
 # Don't notify people that they come from here.
 external_links_no_referrer = true
