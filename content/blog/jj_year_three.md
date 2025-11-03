@@ -46,7 +46,7 @@ potential "Maintainer" list where I personally already thought that it was
 unlikely for me to get added (like a 0.01% chance). Since I was the only person
 who wasn't chosen it didn't feel great to hear about it on the Jan 1st post 
 without receiving a message beforehand. I also stepped into a discussion with
-Drev Devault because it was eerily similar to what I'd do or already did in 
+Drew Devault because it was eerily similar to what I'd do or already did in 
 the past. While I also had some plans to give the
 project docs a better structure, it never happened because I lost my job in 
 February. At the same time I also asked someone for their prototype of 
@@ -60,7 +60,7 @@ resolution was quite fast, it affected me negatively for longer which
 obviously isn't great[^1]. It almost resulted in me quitting the project 
 entirely. The whole situation forced me to recognize what I achieved in the 
 project to get myself back on my feet, it also took some time until I was 
-comfortable expressing myself in the Discord again[^1]. This year I lost 
+comfortable expressing myself in the Discord again[^2]. This year I lost 
 multiple nights of sleep to the project, by just having my name mentioned in 
 certain ways and I had various moments where I was questioning my motivations 
 in the project, since it had such negative effects on me. In July I was back to 
