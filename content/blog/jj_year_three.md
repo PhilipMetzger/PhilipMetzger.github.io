@@ -72,13 +72,13 @@ And when the CFP for JJ-Con went up in July, I just decided to write a cool
 title for a side-project I wanted to discuss anyway. I was very baffled to see 
 that it was the most liked talked during the first three days of voting and it 
 was even stranger to me that it held its top five position which allowed me to 
-hold the talk[^2]. JJ-Con and the all the events around it were a bunch of 
+hold the talk[^3]. JJ-Con and the all the events around it were a bunch of 
 firsts for me, I gave a [technical talk][mh], held a [discussion][topics] and 
 upon the suggestion of Manish held a unconference session which was related to
 the current governance. Also Git Merge was smaller than I expected and quite 
 nice. I also got to talk to the Sapling developers which were interested in 
 the scripting language I proposed for `jj`. There I also was asked if I were 
-interested in  working in Source Control which was quite interesting[^3]. 
+interested in  working in Source Control which was quite interesting[^4]. 
 It also was the first time I've heard that I stand up for the community, which
 never crossed my mind since I only represent myself and try my best to consider
 what the community wants.
