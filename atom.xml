@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title></title>
+    <link href="https://PhilipMetzger.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://PhilipMetzger.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-11-03T00:00:00+00:00</updated>
+    <id>https://PhilipMetzger.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>On three years in the Jujutsu project</title>
+        <published>2025-11-03T00:00:00+00:00</published>
+        <updated>2025-11-03T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://PhilipMetzger.github.io/blog/jj-year-three/" type="text/html"/>
+        <id>https://PhilipMetzger.github.io/blog/jj-year-three/</id>
+        
+        <content type="html">&lt;p&gt;&lt;strong&gt;Intended Audience:&lt;&#x2F;strong&gt; The people from the Jujutsu Discord and random 
+bypassers.&lt;&#x2F;p&gt;
+&lt;div class=&quot;note-container&quot;&gt;
+  
+    &lt;div class=&quot;note-header&quot;&gt;
+      
+        &lt;div class=&quot;note-icon&quot;&gt;
+        &lt;p&gt;Disclaimer&lt;&#x2F;p&gt;
+
+        &lt;&#x2F;div&gt;
+      
+    &lt;&#x2F;div&gt;
+    &lt;div class=&quot;note-content&quot;&gt;
+      &lt;p&gt;The year I&#x27;m talking about is from &lt;br&gt;
+2024.11.03 - 2025.11.03, this also has an alternative title &lt;br&gt;
+&#x27;Three years of whatever this is&#x27;&lt;&#x2F;p&gt;
+
+    &lt;&#x2F;div&gt;
+  
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;what-happened-in-the-project&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-happened-in-the-project&quot; aria-label=&quot;Anchor link for: what-happened-in-the-project&quot;&gt;What happened in the project.&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;In this year the project moved from &lt;code&gt;martinvonz&#x2F;jj&lt;&#x2F;code&gt; to the Alphabet 
+suborganization &lt;code&gt;jj-vcs&#x2F;jj&lt;&#x2F;code&gt; which also led to the logo change away from the 
+Jujube, the previous name of the project, to the two blue jays which were drawn
+by J.J and got its governance with the first set of Maintainers. We also choose 
+to standardize the &lt;code&gt;change-id:&lt;&#x2F;code&gt; header in the Git object with both GitButler and
+Gerrit. Which Martin then brought up in the Git mailing list.
+The standardization of the &lt;code&gt;change-id&lt;&#x2F;code&gt; header also brought many 
+discussions about the UX of divergence in the project which has improved a bit.
+These discussions aren&#x27;t done yet since it requires the users to understand
+that divergence is not a &amp;quot;failure&amp;quot; state and isn&#x27;t as harmful as conflicts.&lt;&#x2F;p&gt;
+&lt;p&gt;The CLA also was a really tiring hot issue this year, in which better 
+communication definitely would&#x27;ve helped.&lt;&#x2F;p&gt;
+&lt;p&gt;Also &lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;ersc.io&quot;&gt;East River Source Control&lt;&#x2F;a&gt; came out of hiding which makes the 
+project have three interested parties, Google, ERSC and Open-Source users.&lt;&#x2F;p&gt;
+&lt;p&gt;The project also had a new community leader step up as another one stepped
+down.&lt;&#x2F;p&gt;
+&lt;p&gt;There also was the first convention for the project in Sunnyvale 
+California named &amp;quot;JJ-Con&amp;quot;, which was colocated with Git Merge 2025. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;my-year&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#my-year&quot; aria-label=&quot;Anchor link for: my-year&quot;&gt;My year&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;a-bad-start-until-the-summer&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#a-bad-start-until-the-summer&quot; aria-label=&quot;Anchor link for: a-bad-start-until-the-summer&quot;&gt;A bad start until the summer&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Honestly my year wasn&#x27;t great, since I choose to add my name to the 
+potential &amp;quot;Maintainer&amp;quot; list where I personally already thought that it was 
+unlikely for me to get added (like a 0.01% chance). Since I was the only person
+who wasn&#x27;t chosen it didn&#x27;t feel great to hear about it on the Jan 1st post 
+without receiving a message beforehand. I also stepped into a discussion with
+Drew Devault because it was eerily similar to what I&#x27;d do or already did in 
+the past. While I also had some plans to give the
+project docs a better structure, it never happened because I lost my job in 
+February. At the same time I also asked someone for their prototype of 
+integrating a scripting language with &lt;code&gt;jj&lt;&#x2F;code&gt; so I could work on it. I also 
+continued my work on the Topics design doc before burning out on it. At various
+points early in the year, I&#x27;ve had the feeling of my opinion not being seen 
+which resulted in the horrible message I sent in Spring.
+I think this could&#x27;ve been entirely prevented by the project having active
+moderation, not just people sitting on the sideline. While the conflict 
+resolution was quite fast, it affected me negatively for longer which 
+obviously isn&#x27;t great&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. It almost resulted in me quitting the project 
+entirely. The whole situation forced me to recognize what I achieved in the 
+project to get myself back on my feet, it also took some time until I was 
+comfortable expressing myself in the Discord again&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#2&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. This year I lost 
+multiple nights of sleep to the project, by just having my name mentioned in 
+certain ways and I had various moments where I was questioning my motivations 
+in the project, since it had such negative effects on me. In July I was back to 
+&amp;quot;normal&amp;quot;, if there&#x27;s such a thing. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jj-con-and-git-merge&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#jj-con-and-git-merge&quot; aria-label=&quot;Anchor link for: jj-con-and-git-merge&quot;&gt;JJ-Con and Git Merge&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;And when the CFP for JJ-Con went up in July, I just decided to write a cool 
+title for a side-project I wanted to discuss anyway. I was very baffled to see 
+that it was the most liked talked during the first three days of voting and it 
+was even stranger to me that it held its top five position which allowed me to 
+hold the talk&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#3&quot;&gt;3&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. JJ-Con and the all the events around it were a bunch of 
+firsts for me, I gave a &lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;QPp_o3CMJlY?si=fyUkn1ZVw_ONQ0VT&quot;&gt;technical talk&lt;&#x2F;a&gt;, held a &lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;JWEFkZr7TIc?si=_kjdXVfyCnqIepgg&quot;&gt;discussion&lt;&#x2F;a&gt; and 
+upon the suggestion of Manish held a unconference session which was related to
+the current governance. Also Git Merge was smaller than I expected and quite 
+nice. I also got to talk to the Sapling developers which were interested in 
+the scripting language I proposed for &lt;code&gt;jj&lt;&#x2F;code&gt;. There I also was asked if I were 
+interested in  working in Source Control which was quite interesting&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#4&quot;&gt;4&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. 
+It also was the first time I&#x27;ve heard that I stand up for the community, which
+never crossed my mind since I only represent myself and try my best to consider
+what the community wants.&lt;&#x2F;p&gt;
+&lt;p&gt;To my surprise I even could attend the Git contributor summit which was an
+interesting experience of its own where I tried to push the change-id header
+discussion a bit further.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;my-pain-points-with-the-current-governance&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#my-pain-points-with-the-current-governance&quot; aria-label=&quot;Anchor link for: my-pain-points-with-the-current-governance&quot;&gt;My pain points with the current Governance&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;The current governance is doing its job poorly with these points for me:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;It fails to be any kind of organization, instead it&#x27;s a bunch of 
+individuals.&lt;&#x2F;li&gt;
+&lt;li&gt;There&#x27;s still not any kind of leadership, be it in a social or technical
+manner. Deferring to the community is not leadership for people which 
+should deem themselves as the &amp;quot;core project&amp;quot;.&lt;&#x2F;li&gt;
+&lt;li&gt;It is not transparent at all with its decision making with all the leading 
+steps upon its creation.&lt;&#x2F;li&gt;
+&lt;li&gt;It also immediately failed to write down the &lt;em&gt;actual job&lt;&#x2F;em&gt; of a Maintainer
+presenting some vague ideas which only the people involved in the temporary
+Governance understand (this excludes a high amount of the community). &lt;&#x2F;li&gt;
+&lt;li&gt;It on one hand wants to steer the technical and organizational direction 
+of the project while it hasn&#x27;t proven it being capable of any of these.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I also don&#x27;t find it good at all that a majority of the Maintainers can&#x27;t take
+the time necessary for the project only retaining their voting position, if it
+comes to that. I mean a Maintainer should be active in the project and 
+concerned about its future and not constantly complain about the length of the
+PR queue, since they&#x27;re responsible for the development speed of the project.
+I also find it bad capacity planning to make 2&#x2F;N maintainers responsible for 
+a vast majority of code-reviews, since it will create a single point of failure
+when one of them has to disappear for internal needs at times. &lt;&#x2F;p&gt;
+&lt;p&gt;Most of the above make my opinion of the Governance lacking, I mean it is OK 
+but it definitely could improve and make their position clearer. If I were 
+Google I&#x27;d wait another year to see how it improves and what pans out.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;closing&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#closing&quot; aria-label=&quot;Anchor link for: closing&quot;&gt;Closing&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;At this point it has been three years since I joined the project wanting to 
+write &lt;code&gt;jj run&lt;&#x2F;code&gt;. During this time I&#x27;ve answered &lt;em&gt;many&lt;&#x2F;em&gt; questions about the 
+project, tried to implement some processes for it and even had a plan on how a 
+native future could look. I even recognized that the project has no 
+leadership figure and thus drove some decisions even though I was asked to 
+step back from this. At this point I&#x27;ve worn many hats, some of them making 
+time for own code contributions  harder, this by sometimes shielding people 
+from questions and otherwise. I want to write code too. &lt;&#x2F;p&gt;
+&lt;p&gt;It also seems that multiple people in the project think that I&#x27;m a Googler 
+working on this full-time as a lead, which is both an insult and a compliment.
+I have my own reasons to be here, such as making the project a success and 
+having an actual Jujutsu-native future, not just as a better Git client. &lt;&#x2F;p&gt;
+&lt;p&gt;I also have thought about enabling GitHub sponsors to give the community a 
+way of sponsoring my presence on the project but I find that soliticing money
+for something I already do extremely hard. Maybe someone could convince me that
+it is a good idea, since my involvement currently doesn&#x27;t pay for my rent. &lt;&#x2F;p&gt;
+&lt;p&gt;I also could try to get into the Maintainer position next year but I doubt it
+will happen even though it would validate all my efforts across the years for 
+the project.&lt;&#x2F;p&gt;
+&lt;p&gt;At this point I&#x27;ve also have become very interested in making Meta a third 
+party involved in the project since someone talked about their use-case in 
+the Discord and I always said that I want to write a &lt;code&gt;jj on EdenFS&lt;&#x2F;code&gt;. But
+that will be in a separate article and which I promised to at least one person.&lt;&#x2F;p&gt;
+&lt;p&gt;My last such post ended with my plans for next year, but since I was unable to
+implement them this year, I&#x27;ll just keep on working on my publicly known
+projects, which means at some point pulling out the &lt;code&gt;Topics&lt;&#x2F;code&gt; design doc out of
+the freezer again. &lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;At this point I should have received a warning per CoC but that didn&#x27;t really happen.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;2&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
+&lt;p&gt;I didn&#x27;t really feel safe for two weeks. &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;3&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;3&lt;&#x2F;sup&gt;
+&lt;p&gt;While I&#x27;ve held presentations, this was the first time I ever gave a
+technical talk in front of a large crowd.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;4&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;4&lt;&#x2F;sup&gt;
+&lt;p&gt;I obviously would like to, but I find it unlikely that I receive a job 
+offer from Google or Meta.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Reflecting on two years on the Jujutsu Project</title>
+        <published>2024-12-22T00:00:00+00:00</published>
+        <updated>2024-12-22T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://PhilipMetzger.github.io/blog/reflection-year-two-jj/" type="text/html"/>
+        <id>https://PhilipMetzger.github.io/blog/reflection-year-two-jj/</id>
+        
+        <content type="html">&lt;p&gt;&lt;strong&gt;Audience:&lt;&#x2F;strong&gt; The people from the &lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;discord.gg&#x2F;dkmfj3aGQN&quot;&gt;Jujutsu Discord&lt;&#x2F;a&gt; and random bypassers.&lt;&#x2F;p&gt;
+&lt;div class=&quot;note-container&quot;&gt;
+  
+    &lt;div class=&quot;note-header&quot;&gt;
+      
+        &lt;div class=&quot;note-icon&quot;&gt;
+        &lt;p&gt;Disclaimer&lt;&#x2F;p&gt;
+
+        &lt;&#x2F;div&gt;
+      
+    &lt;&#x2F;div&gt;
+    &lt;div class=&quot;note-content&quot;&gt;
+      &lt;p&gt;This is my page, so I&#x27;m allowed to liberally critize myself.&lt;br&gt;
+If you disagree with that feel free to keep it to yourself. &lt;b&gt;It is my own choice.&lt;&#x2F;p&gt;
+
+    &lt;&#x2F;div&gt;
+  
+&lt;&#x2F;div&gt;
+&lt;p&gt;The project has grown by a sizeable amount and as such also the Discord. While
+this makes it less comfortable to me, it shows that this is the right approach
+to a new VCS. &lt;&#x2F;p&gt;
+&lt;p&gt;On the other hand, it was a strange year for me in the project, as judging by 
+the &lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;jj-vcs.github.io&#x2F;jj&#x2F;latest&#x2F;testimonials&#x2F;&quot;&gt;Testimonials&lt;&#x2F;a&gt; page which I added to the docs made me a &amp;quot;Developer&amp;quot;
+(thankfully no Maintainer yet).
+I see myself as a fine technical contributor, but my social skills sometimes 
+are not the best and mixing that with strong opinions is a dangerous concoction.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-bad-aka-making-mistakes&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-bad-aka-making-mistakes&quot; aria-label=&quot;Anchor link for: the-bad-aka-making-mistakes&quot;&gt;The Bad (aka making mistakes)&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;During early Spring this year, I made some mistakes and was a undoubtely 
+a bad &lt;em&gt;contributor&lt;&#x2F;em&gt; to the project.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;It started with my &lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jj-vcs&#x2F;jj&#x2F;pull&#x2F;2842#issuecomment-1979068782&quot;&gt;giant fuckup&lt;&#x2F;a&gt;&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. And as I believe actions should 
+have consequences, this led to a very personal offer to  @martinvonz 
+and the formation of a &lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jj-vcs&#x2F;jj&#x2F;discussions&#x2F;3877&quot;&gt;Governance structure&lt;&#x2F;a&gt;. &lt;&#x2F;li&gt;
+&lt;li&gt;Then the whole &lt;code&gt;prev&#x2F;next&lt;&#x2F;code&gt; debacle also wasn&#x27;t great to continue that 
+streak, where once again my &lt;em&gt;strong&lt;&#x2F;em&gt; words did not help anyone. 
+I believe that my reactions there were &lt;em&gt;toxic&lt;&#x2F;em&gt;. &lt;&#x2F;li&gt;
+&lt;li&gt;And to top it off, the whole hook discussion also strained me heavily. Here
+I am thankful for the private conversation I had with Matt (@msta).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;All of these interactions were not beneficial to me, or my mental state
+which led to the reoccurring thought of just resigning from the project. While
+this solves the immediate issue, it doesn&#x27;t remove my interest in project 
+itself and I think keeping me around as a person with some strong opinions 
+can help the project grow further. And as I owe everyone the &lt;code&gt;jj run&lt;&#x2F;code&gt; 
+implementation, it is hard to disappear into shadows. &lt;&#x2F;p&gt;
+&lt;p&gt;After taking a healthy break this summer, my attitude finally improved towards
+the project and I got my motivation back to work on &lt;code&gt;jj&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-good&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-good&quot; aria-label=&quot;Anchor link for: the-good&quot;&gt;The Good&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;I was motivated to continue my work on &lt;code&gt;run&lt;&#x2F;code&gt; after taking a break. 
+Hopefully it is in a MVP state now. Then Matt (@msta) started the initial work
+on &lt;code&gt;jj api&lt;&#x2F;code&gt; which won&#x27;t be finished any time soon, as it will need to grow
+with the project.&lt;&#x2F;p&gt;
+&lt;p&gt;Then we also went ahead and &lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jj-vcs&#x2F;jj&#x2F;pull&#x2F;4341&quot;&gt;renamed Jujutsu&#x27;s branches to bookmarks&lt;&#x2F;a&gt;, 
+which opens the path for &lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jj-vcs&#x2F;jj&#x2F;issues&#x2F;3402&quot;&gt;Topics&lt;&#x2F;a&gt; and solidifies it as our first term 
+(although a similarily named but different mechanism exists for Mercurial).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;looking-forward-in-the-project&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#looking-forward-in-the-project&quot; aria-label=&quot;Anchor link for: looking-forward-in-the-project&quot;&gt;Looking forward in the Project&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;My personal goal for the next year is to finish &lt;code&gt;jj run&lt;&#x2F;code&gt; and give others 
+some room with it, I think both @hooper and @arxanas can improve it.&lt;&#x2F;p&gt;
+&lt;p&gt;The things I really want to get in for next year is &lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jj-vcs&#x2F;jj&#x2F;issues&#x2F;3402&quot;&gt;Topics&lt;&#x2F;a&gt;, where I also 
+was heavily involved and get the ball rolling on interchanging Change-IDs in
+the Git protocol and the start of some kind of native repository&#x2F;server to 
+begin modeling the world from Jujutsu&#x27;s eyes, as importing terms from Git never 
+helped the project. &lt;&#x2F;p&gt;
+&lt;p&gt;I also want the more powerful aliases, so we can deprecate &lt;code&gt;jj commit&lt;&#x2F;code&gt; and make
+it a configurable alias for those who want to stick to the 30 years of VCS 
+history.&lt;&#x2F;p&gt;
+&lt;p&gt;On the docs side, I still want to completly restructure them when Steve 
+Klabnik&#x27;s tutorial lands. As they&#x27;re a bit incoherent.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#conclusion&quot; aria-label=&quot;Anchor link for: conclusion&quot;&gt;Conclusion&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;This was the year of communication failure, both in the project and at 
+&lt;code&gt;$WORK&lt;&#x2F;code&gt;, where my frustration from work clearly affected my behavior in the 
+project, which definitely wasn&#x27;t what I wanted. I also will stick around for 
+now, although always keeping a self-ban in mind.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve also really tried to improve on my communication which is something I 
+intend to keep up for next year (I expect occassional relapses, but such is 
+life). &lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;Macro-expanded &lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jj-vcs&#x2F;jj&#x2F;pull&#x2F;3218#pullrequestreview-1917415818&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A short reflection upon almost a Year of Jujutsu usage</title>
+        <published>2024-03-03T00:00:00+00:00</published>
+        <updated>2024-03-03T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://PhilipMetzger.github.io/blog/a-year-jujutsu-usage/" type="text/html"/>
+        <id>https://PhilipMetzger.github.io/blog/a-year-jujutsu-usage/</id>
+        
+        <content type="html">&lt;p&gt;(Note: This post was originally a &lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;discord.com&#x2F;channels&#x2F;968932220549103686&#x2F;968932220549103689&#x2F;1169702852986417172&quot;&gt;Discord message&lt;&#x2F;a&gt; in the 
+&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;discord.gg&#x2F;dkmfj3aGQN&quot;&gt;Jujutsu Discord&lt;&#x2F;a&gt;)&lt;&#x2F;p&gt;
+&lt;p&gt;(Sidenote: It was primarily used for contributing here and personal projects)&lt;br &#x2F;&gt;
+As a pretty stupid user of Git, I really like all the changes and it being less
+footgunny. I really like revsets, they make the log a really useful tool. Some 
+features I&#x27;m missing &lt;code&gt;jj run&lt;&#x2F;code&gt; (the author should really get to it)&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, blame, 
+&lt;code&gt;jj sync&lt;&#x2F;code&gt;, &lt;code&gt;jj submit&lt;&#x2F;code&gt; and change detection. As I&#x27;ve written a bunch of 
+documentation, I think there should be some sort of polish for the tutorial as 
+quite a lot has changed and I think we should provide some guides like: 
+&lt;em&gt;What are  some similar workflows to &#x27;git add -p&#x27;&lt;&#x2F;em&gt; that could be used in a 
+Codelab. And I really enjoy contributing here and meeting Martin and Ilya was
+cool.&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;I&#x27;m calling myself out, if that is not &lt;em&gt;obvious&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A list of links</title>
+        <published>2023-07-19T00:00:00+00:00</published>
+        <updated>2023-07-19T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://PhilipMetzger.github.io/links/useful/" type="text/html"/>
+        <id>https://PhilipMetzger.github.io/links/useful/</id>
+        
+        <content type="html">&lt;h1 id=&quot;here-is-a-incomplete-list-of-creators-or-companies-with-good-content&quot;&gt;Here is a incomplete list of creators or companies with good content&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;blogs-i-like&quot;&gt;Blogs I like&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;rachelbythebay.com&#x2F;w&#x2F;&quot;&gt;Rachel&#x27;s Blog&lt;&#x2F;a&gt; is full of realistic cynicism. 
+&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;danluu.com&quot;&gt;Dan Luu&lt;&#x2F;a&gt;, is always insightful. 
+&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;jvns.ca&quot;&gt;Julia Evans&lt;&#x2F;a&gt;, her short exploratory blogs helped me.
+&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;randomascii.wordpress.com&quot;&gt;Bruce Dawson&lt;&#x2F;a&gt;, he always shows interesting perf problems.
+&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;matklad.github.io&quot;&gt;Matklad&lt;&#x2F;a&gt;, writes succinct articles about Rust and Zig.
+&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;faultlore.com&#x2F;blah&#x2F;&quot;&gt;Gankra&lt;&#x2F;a&gt;, on point with the programming language analysis.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;articles-i-like&quot;&gt;Articles I like&lt;&#x2F;h2&gt;
+&lt;!-- Highlighted articles get their own sections, either using the Author&#x27;s or 
+the companies name. --&gt;
+&lt;p&gt;This section is not ordered in any way, so please search for either the 
+Author&#x27;s name, the company name or the respective paper or blog post. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;rachelbythebay&quot;&gt;Rachelbythebay&lt;&#x2F;h3&gt;
+&lt;p&gt;Probably my favorite series so far, how releasing stuff to a massive fleet 
+broke stuff.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;rachelbythebay.com&#x2F;w&#x2F;2020&#x2F;04&#x2F;23&#x2F;rel&#x2F;&quot;&gt;Releasing software to the fleet far too quickly broke stuff&lt;&#x2F;a&gt;
+&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;rachelbythebay.com&#x2F;w&#x2F;2020&#x2F;04&#x2F;25&#x2F;rel&#x2F;&quot;&gt;Moving fleet software releases to a massively sharded scheme&lt;&#x2F;a&gt;
+&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;rachelbythebay.com&#x2F;w&#x2F;2020&#x2F;04&#x2F;29&#x2F;rel&#x2F;&quot;&gt;Rolling out the &amp;quot;push train&amp;quot;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;And some other gems from her&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;rachelbythebay.com&#x2F;w&#x2F;2013&#x2F;02&#x2F;02&#x2F;steps&#x2F;&quot;&gt;Replacing &amp;quot;scripter mentality&amp;quot; code&lt;&#x2F;a&gt;
+&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;rachelbythebay.com&#x2F;w&#x2F;2013&#x2F;02&#x2F;03&#x2F;quorum&#x2F;&quot;&gt;Reaching a quorum of machines&lt;&#x2F;a&gt;
+[Looking for the duct tape]&lt;&#x2F;p&gt;
+&lt;p&gt;And a special shoutout to the random numbers series&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;fly-io&quot;&gt;Fly.io&lt;&#x2F;h3&gt;
+&lt;p&gt;They have excellent explanations of what actually happens under the hood.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;fly.io&#x2F;blog&#x2F;the-5-hour-content-delivery-network&#x2F;&quot;&gt;The 5-hour CDN&lt;&#x2F;a&gt;, by Kurt Mackey
+&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;fly.io&#x2F;blog&#x2F;docker-without-docker&#x2F;&quot;&gt;Docker without Docker&lt;&#x2F;a&gt;, by Thomas Ptaecek
+&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;fly.io&#x2F;blog&#x2F;sandboxing-and-workload-isolation&#x2F;&quot;&gt;Sandboxing and Workload isolation&lt;&#x2F;a&gt;, by Thomas Ptacek
+[Carving the Scheduler Out of the Orchestrator], by Thomas Ptacek
+[Making Machines move], by Thomas Ptacek
+&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;fly.io&#x2F;blog&#x2F;api-tokens-a-tedious-survey&#x2F;&quot;&gt;API Tokens: A tedious Survey&lt;&#x2F;a&gt;, by Thomas Ptacek
+[Macaroons, ???], by Thomas Ptacek&lt;&#x2F;p&gt;
+&lt;p&gt;The whole SQLite series is also outstanding, as someone who spent a 
+loooooooong time looking at the source code.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;fly.io&#x2F;blog&#x2F;sqlite-internals-btree&#x2F;&quot;&gt;SQLite Internals: Pages &amp;amp; B-trees&lt;&#x2F;a&gt;,&lt;br &#x2F;&gt;
+&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;fly.io&#x2F;blog&#x2F;sqlite-internals-rollback-journal&#x2F;&quot;&gt;How SQLite Helps You Do ACID&lt;&#x2F;a&gt;,&lt;br &#x2F;&gt;
+&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;fly.io&#x2F;blog&#x2F;sqlite-internals-rollback-journal&#x2F;&quot;&gt;How SQLite Scales Read Concurrency&lt;&#x2F;a&gt;,&lt;br &#x2F;&gt;
+&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;fly.io&#x2F;blog&#x2F;sqlite-internals-rollback-journal&#x2F;&quot;&gt;How the SQLite Virtual Machine Works&lt;&#x2F;a&gt;, by Ben Johnson&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cloudflare&quot;&gt;Cloudflare&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;other&quot;&gt;Other&lt;&#x2F;h3&gt;
+&lt;!-- The format is Article, $Author --&gt;
+&lt;p&gt;[Build Systems], by Name
+[Turing incomplete languages], by Neil Mitchell
+[Kubernetes is our generations Multics], by Andy Chu
+[I want off Mr. Golangs Wild Ride], by Amos Wenger
+[Other Golang Flame Article], by Amos Wenger
+[The Success and Failure of Ninja], by Evan Martin
+[Futures, Generators Series], by WithoutBoats
+[Static Languages Complexity] by Hirrolot
+[Rust Async Sucks] by Hirrolot.
+&lt;a rel=&quot;noreferrer&quot; href=&quot;https:&#x2F;&#x2F;yosefk.com&#x2F;blog&#x2F;people-can-read-their-managers-mind.html&quot;&gt;People can read their manager&#x27;s mind&lt;&#x2F;a&gt; by Yossi Kreini
+[Our Dependency Problem], by Russ Cox&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;and-here-is-a-incomplete-list-of-my-favorite-talks&quot;&gt;And here is a incomplete list of my favorite talks&lt;&#x2F;h2&gt;
+&lt;!-- The format is Title, Speakers --&gt;
+&lt;p&gt;[What is C++], Chandler Carruth and Titus Winters 
+[What are Languages], Titus Winters
+[Using C++ as a live at Head Language], Titus Winters
+[LLVM Substrates], Nicolai Hähnle
+[What did my Compiler do for me today], Matt Godbolt
+[Using C++ in three ways], Matt Godbolt&lt;&#x2F;p&gt;
+&lt;!-- People --&gt;
+&lt;!-- Individual Blog posts --&gt;
+&lt;!-- sorted by Author&#x2F;Company name --&gt;
+&lt;!-- Hirrolot --&gt;
+&lt;p&gt;[Why static Languages suffer from complexicity]: &lt;&#x2F;p&gt;
+&lt;!-- Fasterthanlime --&gt;
+&lt;!-- Fly.io --&gt;
+&lt;!-- Rachelbythebay --&gt;
+&lt;!-- Russ Cox --&gt;
+&lt;!-- Withoutboats --&gt;
+&lt;!-- Yossi Kreinin --&gt;
+&lt;!-- Papers --&gt;
+&lt;!-- Talks --&gt;
+&lt;!-- sorted by year, alphabetically --&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Hello World</title>
+        <published>2023-05-23T00:00:00+00:00</published>
+        <updated>2023-05-23T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://PhilipMetzger.github.io/blog/hello-world/" type="text/html"/>
+        <id>https://PhilipMetzger.github.io/blog/hello-world/</id>
+        
+        <content type="html">&lt;p&gt;Hello from my Blog. Let&#x27;s see what happens. &lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
